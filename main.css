@@ -1,0 +1,45 @@
+.tag{
+  border-radius: 70%;
+  height: 30px;
+  width: 33px;
+  padding-bottom: 37px;
+  padding-left: 2px;
+}
+
+.banner{
+  height: 100%;
+  width: 100%;
+  background-color: #fae1dc;
+  border-radius: 35px;
+}
+
+.title{
+  font-size: 4em;
+  font-family: 'Pacifico', cursive;
+}
+
+.subtitle{
+  font-size: 16.5px;
+}
+
+.font-1 {
+  font-family: 'Pacifico', cursive;
+}
+
+.w-85{
+  width: 85%;
+}
+
+#v-pills-tab .nav-link.active{
+  background-color: #fae1dc;
+  color: #343a40;
+}
+
+#v-pills-tab .nav-link{
+  color: #343a40;
+  font-weight: 700;
+}
+
+.curve-img{
+  border-radius: 35px;
+}
