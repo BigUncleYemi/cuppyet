@@ -1,45 +1,100 @@
-.tag{
-  border-radius: 70%;
-  height: 30px;
-  width: 33px;
-  padding-bottom: 37px;
-  padding-left: 2px;
+.tag {
+	border-radius: 70%;
+	height: 30px;
+	width: 33px;
+	padding-bottom: 37px;
+	padding-left: 2px;
 }
 
-.banner{
-  height: 100%;
-  width: 100%;
-  background-color: #fae1dc;
-  border-radius: 35px;
+.banner {
+	height: 100%;
+	width: 100%;
+	background-color: #fae1dc;
+	border-radius: 35px;
 }
 
-.title{
-  font-size: 4em;
-  font-family: 'Pacifico', cursive;
+.title {
+	font-size: 4em;
+	font-family: 'Pacifico', cursive;
 }
 
-.subtitle{
-  font-size: 16.5px;
+.subtitle {
+	font-size: 16.5px;
 }
 
 .font-1 {
-  font-family: 'Pacifico', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
-.w-85{
-  width: 85%;
+.w-85 {
+	width: 85%;
 }
 
-#v-pills-tab .nav-link.active{
-  background-color: #fae1dc;
-  color: #343a40;
+#v-pills-tab .nav-link.active {
+	background-color: #fae1dc;
+	color: #343a40;
 }
 
-#v-pills-tab .nav-link{
-  color: #343a40;
-  font-weight: 700;
+#v-pills-tab .nav-link {
+	color: #343a40;
+	font-weight: 700;
 }
 
-.curve-img{
-  border-radius: 35px;
+.curve-img {
+	border-radius: 35px;
+}
+
+.bg-gray {
+	background-color: #e9ecef;
+}
+
+#search:focus,
+#Subscribe:focus {
+	color: #495057;
+	background-color: #e9ecef;
+	border-color: none;
+	outline: 0;
+	box-shadow: none;
+}
+
+#filter {
+	background: none;
+	color: white;
+	width: 60%;
+	border: none;
+	font-weight: 900;
+}
+
+#filter:focus {
+	border-color: none;
+	outline: 0;
+	box-shadow: none;
+}
+
+option {
+	color: black;
+	border: none;
+	font-weight: 900;
+}
+
+.text-gray {
+	color: #6c757d;
+}
+
+span.text-gray {
+	font-size: 12px;
+}
+
+.page-item a.page-link {
+	color: #343a40;
+}
+
+.page-item.active a.page-link {
+	background-color: #fae1dc;
+	border: #6c757d;
+	color: #495057;
+}
+
+#sub {
+	background-image: linear-gradient(#fae1dc, #fadce6);
 }
