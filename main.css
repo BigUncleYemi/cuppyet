@@ -98,3 +98,27 @@ span.text-gray {
 #sub {
 	background-image: linear-gradient(#fae1dc, #fadce6);
 }
+
+
+.modal-backdrop{
+	filter: blur(171px);
+	background-size: cover;
+	background-color: #d4d2d1ab !important;
+	background-blend-mode: color;
+	opacity: 1 !important;
+}
+
+.view-item-img{
+	clip-path: circle(90% at 83% 48%);
+}
+
+.btn-outline-cuppyet{
+	border: 1px solid #6b1f19;
+	color: #6b1f19;
+}
+
+.btn-outline-cuppyet:hover{
+	color: white;
+	background-color: #6b1f19;
+	outline: none;
+}
